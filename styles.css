@@ -1,0 +1,45 @@
+body{
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.avatar{
+    width:150px;
+    height:150px;
+    border-radius:10px;
+}
+
+.business-card{
+    margin:0 auto;
+    width:450px;
+    height:200px;
+    border:1px solid black;
+    border-radius:10px;
+    padding:20px;
+    box-shadow: 4.0px 4.0px 5px grey;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background: linear-gradient(to top left, #113F67, #34699A, #58A0C8, #FDF5AA);
+    }
+
+.info{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font:italic bold 16px;
+    text-align: center;
+}
+
+.info:hover{
+    color: rgb(114, 203, 110);
+    text-shadow: 2px 2px 4px black;
+    transform:scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.avatar:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
